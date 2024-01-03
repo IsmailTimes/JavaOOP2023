@@ -8,9 +8,9 @@ class Computer {
 
 	// Default Constructor
 	Computer() {
-		// Default Constructor doesn't have a void and return
-		// System.out.println("Computer() Constructor is called");
-		// brand = "Lenovo";
+//		 Default Constructor doesn't have a void and return
+//		 System.out.println("Computer() Constructor is called");
+//		 brand = "Lenovo";
 	}
 
 	// Overloading Constructor
@@ -23,17 +23,17 @@ class Computer {
 	// Overriding Constructor
 	@Override
 	public String toString() {
-		return "Brand: " + brand + ", price: " + price + ", version: " + version + ", isSuper: " + isSuperC;
+		return "Brand: " + brand + ", price: " + price + ", version: " + version + ", isSuper: " + isSuperC ;
 
 	}
 
-	public void Browing() {
-		System.out.println("We can browse internet using computer");
+	public void Browsing() {
+		System.out.println("We can browse internet using computer.");
 		return;
 	}
 }
 
-public class classOjcect {
+public class classObjcect {
 
 	public static void main(String[] args) {
 
@@ -44,6 +44,6 @@ public class classOjcect {
 		c2.price = 53000; // It's not ideal for privacy issue.
 		System.out.println("Price: " + c2.price);
 		System.out.println(c1);
-
+		c1.Browsing();
 	}
 }
