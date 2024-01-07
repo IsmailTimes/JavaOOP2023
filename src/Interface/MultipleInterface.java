@@ -31,7 +31,7 @@ public class MultipleInterface {
 		ob.play();
 		ob.run();
 		
-	
+		
 	}
 
 }
